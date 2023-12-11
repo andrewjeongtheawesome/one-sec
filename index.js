@@ -13,6 +13,7 @@ startButton.addEventListener("click", () => {
     if(isStartClicked){
         target.innerText = "wating for response...";
         start = new Date();
+        isStartClicked = false;
     }
 });
 
@@ -26,13 +27,15 @@ endButton.addEventListener("click", () => {
         else{
             target.innerText = `${diff} incorrect`;
         }
-        isEndClicked = true;
+        isEndClicked = false;
     }
 });
 
 resetButton.addEventListener("click", () => {
     if(isResetClicked){
         target.innerText = "press start";
-        isResetClicked = true;
+        isStartClicked = true;
+        isEndClicked = true;
+        
     }
 });
