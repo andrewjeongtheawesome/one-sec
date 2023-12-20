@@ -1,24 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    width : 0 auto;
+    height: 100px;
+    background-color: rgb(56, 55, 55);
+}
+
+footer{
+    position : absolute;
+    bottom : 0;
+    height : 240px;
+    width: 100%;
+    margin : auto;
+    float : left;
+    margin-top : 10px;
+    background-color: rgb(56, 55, 55);
+    color : white;
+}
+
+#copyright{
+    margin-bottom : 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+section{
+    text-align: center;
+    margin-top: 100px;
+    height : auto;
+    width: auto;
+}
+
+#page{
+    width : 0 auto;
+    margin : 0 auto;
+}
+
+#logo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 45px;
+    color : white
+}
+
+#top{
+    float: right;
+    margin: 35px 20px 0 0;
+    color : white;
+}
+
 .title{
-    position: absolute;
-    left: 50%;
-    top: 20%;
-    transform: translate(-50%, -50%);
     font-size: 80px;
 }
 
 .button{
-    margin-top: 200px;
-    text-align: center;
+    margin-top: 30px;
 }
 
 #startButton{
-    display: inline-block;
+    background-color: rgb(93, 92, 92);
+    font-size: 25px;
+    color : white;
+    height : 100px;
+    width : 100px;
+    border-radius: 100px;
 }
 
 #endButton{
-    display: inline-block;
+    background-color: rgb(93, 92, 92);
+    font-size: 25px;
+    color : white;
+    height : 100px;
+    width : 100px;
+    border-radius: 100px;
 }
 
 #resetButton{
-    display: inline-block;
+    background-color: rgb(93, 92, 92);
+    font-size: 25px;
+    color : white;
+    height : 100px;
+    width : 100px;
+    border-radius: 100px;
 }
