@@ -22,10 +22,10 @@ endButton.addEventListener("click", () => {
         end = new Date();
         diff = end-start;
         if(diff<1100 && 900<=diff){
-            target.innerText = `${diff} correct`;
+            target.innerText = `success :)`;
         }
         else{
-            target.innerText = `${diff} incorrect`;
+            target.innerText = `failed :(`;
         }
         isEndClicked = false;
     }
